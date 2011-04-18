@@ -1,0 +1,7 @@
+prompt 0
+default CentOS-5
+timeout 1
+
+label CentOS-5
+kernel vmlinuz-CentOS-5
+append initrd=initrd.img-CentOS-5 ks=http://192.168.0.1/pub/preboot/centos-5.ks

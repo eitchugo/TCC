@@ -1,0 +1,7 @@
+prompt 0
+default Debian-6
+timeout 1
+
+label Debian-6
+kernel vmlinuz-Debian-6
+append initrd=initrd.gz-Debian-6 debian-installer/locale=en_US console-keymaps-at/keymap=br-abnt2 debconf/priority=critical preseed/url=http://192.168.0.1/pub/preboot/debian-6-preseed.cfg --
