@@ -1,0 +1,7 @@
+prompt 0
+default Ubuntu-10.10
+timeout 1
+
+label Ubuntu-10.10
+kernel vmlinuz-Ubuntu-10.10
+append initrd=initrd.gz-Ubuntu-10.10 debian-installer/locale=en_US console-keymaps-at/keymap=br-abnt2 debconf/priority=critical preseed/url=http://192.168.0.1/pub/preboot/ubuntu-1010-preseed.cfg --
